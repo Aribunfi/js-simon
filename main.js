@@ -4,7 +4,7 @@
 // ​Display the output to users. ...
 // Display a message when the timer is over. ...
 // Implementation.
-var countDownDate = new Date("Jul 25, 2021 16:37:52").getTime();
+var countDownDate = new Date("Feb 6, 2023 16:37:52").getTime();
 
 // Run myfunc every second
 var myfunc = setInterval(function() {
