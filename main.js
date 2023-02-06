@@ -4,7 +4,7 @@
 // ​Display the output to users. ...
 // Display a message when the timer is over. ...
 // Implementation.
-var countDownDate = new Date("Feb 6, 2023 16:37:52").getTime();
+var countDownDate = new Date("Feb 7, 2023 09:30:00").getTime();
 
 // Run myfunc every second
 var myfunc = setInterval(function() {
@@ -31,6 +31,6 @@ if (timeleft < 0) {
     document.getElementById("hours").innerHTML = "" 
     document.getElementById("mins").innerHTML = ""
     document.getElementById("secs").innerHTML = ""
-    document.getElementById("end").innerHTML = "TIME UP!!";
+    document.getElementById("end").innerHTML = "Il tempo è finito!!";
 }
 }, 1000);
